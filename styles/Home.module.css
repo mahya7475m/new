@@ -1,0 +1,244 @@
+@font-face {
+  font-family:vazir;
+  src: url(../fonts/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.woff);
+}
+
+.conent{
+  background-color: #e5e5e5;
+  width: 100%;
+  min-height: 200vh;
+}
+
+.page{
+  margin:3rem auto;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  display: flex;
+  width: 80% ;
+  justify-content: space-between;
+ }
+
+.page1{
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+}
+
+.form1{
+  width: 100%;
+display: flex;
+flex-direction: row;
+font-size: 20px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+text-align: right;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.head {
+background-color:#ffffff;
+width:100%;
+height: 3rem;
+box-shadow: 0px 0px 5px rgb(97, 96, 96);
+}
+
+.head p{
+margin-right: 3rem;
+}
+
+.form2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+  width: 28%;
+}
+
+.inputs{
+  width:96%;
+  height: 3vh;
+  border-radius: 3px;
+  outline:none;
+  padding:5px;
+  font-size: 15px;
+  border: 0px solid;
+ box-shadow: 0px 0px 5px rgb(97, 96, 96);
+ color: #333;
+ }
+
+.inputs:focus{
+  box-shadow: 0px 0px 5px blue;
+  }
+
+.formgroup{
+  width: 48% ;
+  height: auto ;
+  margin : 2rem  0rem ;
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.formgroup label{
+  width:100% ;
+  display: block;
+}
+
+.formgroup .inputss{
+  width:26.5rem;
+  height: 8rem;
+  background-color: #ffffff;
+  border-radius: 3px;
+  outline:none;
+  padding:5px;
+  font-size: 15px;
+  border: 0px solid;
+ box-shadow: 0px 0px 5px rgb(97, 96, 96);
+ color: #333;
+}
+.formgroup .inputses{
+  align-self: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  padding:10px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0px 0px 5px rgb(97, 96, 96);
+
+  }
+
+.selects{
+  width:96%;
+  height: 4.4vh;
+  border-radius: 3px;
+  outline:none;
+  padding:5px;
+  font-size: 15px;
+  border: 0px solid;
+ box-shadow: 0px 0px 5px rgb(97, 96, 96);
+ color: #333;
+
+}
+
+.selects:hover{
+  border: 0px solid;
+  box-shadow: 0px 0px 5px blue;
+  color: #333;
+ }
+.selects:focus{
+  border: 0px solid;
+  box-shadow: 0px 0px 5px blue;
+  color: #333;
+}
+
+img.forrgroup{
+  width: 5vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+.formgroupimg{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+
+}
+.formgroup .labeless{
+  margin-bottom: 0rem;
+
+  }
+
+.form2 .gradients1{
+  background: -webkit-linear-gradient(left, orange , rgb(199, 68, 17));
+width: 100%;
+height: 15vh;
+margin: 3.4rem 0 3rem 5;
+border-radius: 10px;
+}
+
+.form2 p{
+  font-size: 20px;
+  color: #ccc;
+  padding: 13px 1px;
+}
+
+.form2 .gradients2{
+  background: -webkit-linear-gradient(left, rgb(41, 212, 190) , rgb(6, 78, 231));
+width: 100%;
+height: 15vh;
+margin-top: 1.5rem;
+border-radius: 10px;
+}
+
+.form2 p.gradients3{
+padding: 11px 2px;
+}
+
+.gradients4{
+border: 2rem;
+border-color: #333;
+width: 3rem;
+min-height: 3rem;
+}
+
+.insideimg .gradientsimg{
+  margin-bottom: 5rem;
+}
+
+.gradients5{
+font-size: 25px;
+}
+.insideimg .gradientsimg{
+  width:5rem;
+  height:5rem;
+  }
+.navimg{
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 5px ;
+ border: 2px solid #ccc;
+ box-shadow: 0px 0px 5px rgb(97, 96, 96);
+
+}
+
+.navimginsideimg img{
+  width: 9vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+.navimginsideimg{
+  display: flex;
+}
+.navimginsidep{
+  display: flex;
+}
+
+.navimginsidep p{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn{
+  font-size: 22px;
+  background-color: rgb(216, 118, 38);
+  width: 20vw;
+  height: 6.7vh;
+  border-radius: 0.5rem;
+  border: 0px;
+}
+
+
+
+  
